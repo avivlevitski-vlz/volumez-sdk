@@ -1,0 +1,16 @@
+# Export
+
+
+## Fields
+
+| Field                                                               | Type                                                                | Required                                                            | Description                                                         |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| `ID`                                                                | **string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `Params`                                                            | [*components.ExportCreate](../../models/components/exportcreate.md) | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `Volumename`                                                        | **string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `Snapshotname`                                                      | **string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `State`                                                             | **string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `Status`                                                            | **string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `Progress`                                                          | **int64*                                                            | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `Xqn`                                                               | **string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 |
+| `Wwn`                                                               | **string*                                                           | :heavy_minus_sign:                                                  | N/A                                                                 |

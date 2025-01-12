@@ -1,0 +1,11 @@
+# BatchVolumesPlanRequestBody
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `Volumes`                                                                               | [][operations.Volumes](../../models/operations/volumes.md)                              | :heavy_minus_sign:                                                                      | N/A                                                                                     |
+| `CapacityGroup`                                                                         | **string*                                                                               | :heavy_minus_sign:                                                                      | capacity groups to create the volume from (optional)                                    |
+| `DefaultZone`                                                                           | **string*                                                                               | :heavy_minus_sign:                                                                      | zone parameter for all volumes that dont have zone parameter                            |
+| `DefaultPolicy`                                                                         | **string*                                                                               | :heavy_minus_sign:                                                                      | policy parameter for all volumes that dont have policy parameter defined in their input |

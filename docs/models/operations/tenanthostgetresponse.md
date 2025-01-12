@@ -1,0 +1,10 @@
+# TenanthostgetResponse
+
+
+## Fields
+
+| Field                                                                                 | Type                                                                                  | Required                                                                              | Description                                                                           |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                            | [components.HTTPMetadata](../../models/components/httpmetadata.md)                    | :heavy_check_mark:                                                                    | N/A                                                                                   |
+| `GetTenantHostResponse`                                                               | [*components.GetTenantHostResponse](../../models/components/gettenanthostresponse.md) | :heavy_minus_sign:                                                                    | Got Tenant's Host successfully                                                        |
+| `Headers`                                                                             | map[string][]*string*                                                                 | :heavy_check_mark:                                                                    | N/A                                                                                   |

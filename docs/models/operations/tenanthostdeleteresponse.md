@@ -1,0 +1,10 @@
+# TenanthostdeleteResponse
+
+
+## Fields
+
+| Field                                                                                       | Type                                                                                        | Required                                                                                    | Description                                                                                 |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                  | [components.HTTPMetadata](../../models/components/httpmetadata.md)                          | :heavy_check_mark:                                                                          | N/A                                                                                         |
+| `TenantHostDeleteResponse`                                                                  | [*components.TenantHostDeleteResponse](../../models/components/tenanthostdeleteresponse.md) | :heavy_minus_sign:                                                                          | Tenant Host was deleted successfully                                                        |
+| `Headers`                                                                                   | map[string][]*string*                                                                       | :heavy_check_mark:                                                                          | N/A                                                                                         |

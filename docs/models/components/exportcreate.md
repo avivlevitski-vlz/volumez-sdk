@@ -1,0 +1,14 @@
+# ExportCreate
+
+
+## Fields
+
+| Field                                                                   | Type                                                                    | Required                                                                | Description                                                             |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| `TargetName`                                                            | **string*                                                               | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Protocol`                                                              | **string*                                                               | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Authentication`                                                        | [*components.Authentication](../../models/components/authentication.md) | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Volumeid`                                                              | **string*                                                               | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Snapshotid`                                                            | **string*                                                               | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `AllowedHosts`                                                          | []*string*                                                              | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Nodes`                                                                 | [][components.Nodes](../../models/components/nodes.md)                  | :heavy_minus_sign:                                                      | N/A                                                                     |

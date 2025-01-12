@@ -1,0 +1,2443 @@
+lockVersion: 2.0.0
+id: fce15c10-9ac7-4179-9616-961a44902bfd
+management:
+  docChecksum: 1562a9e6ad5c534549a7146625ff054b
+  docVersion: 1.0.0 - a12da07
+  speakeasyVersion: 1.468.2
+  generationVersion: 2.493.4
+  releaseVersion: 0.1.7
+  configChecksum: 975124c3ee40a635bc06ef84ad0de475
+features:
+  go:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.6
+    core: 3.6.2
+    defaultEnabledRetries: 0.2.0
+    devContainers: 2.90.0
+    envVarSecurityUsage: 0.3.2
+    flattening: 2.81.1
+    globalSecurity: 2.82.10
+    globalSecurityCallbacks: 0.1.0
+    globalSecurityFlattening: 0.1.0
+    globalServerURLs: 2.82.2
+    inputOutputModels: 2.83.0
+    intellisenseMarkdownSupport: 0.1.0
+    responseFormat: 0.1.2
+    retries: 2.83.2
+    sdkHooks: 0.1.0
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - /models/apierrors/errorresponse.go
+  - /models/apierrors/gettenanthostresponse.go
+  - /models/apierrors/gettenantidresponse.go
+  - /models/apierrors/gettenanuserresponse.go
+  - /models/apierrors/signupresponse.go
+  - /models/apierrors/tenanthostdeleteresponse.go
+  - /models/components/alert.go
+  - /models/components/association.go
+  - /models/components/associationcreate.go
+  - /models/components/associationmodify.go
+  - /models/components/attachment.go
+  - /models/components/attachmentinput.go
+  - /models/components/authentication.go
+  - /models/components/autoprovisioninfraplan.go
+  - /models/components/autoprovisionvolume.go
+  - /models/components/capacitygroup.go
+  - /models/components/changepasswordrequest.go
+  - /models/components/changepasswordrequestloggedin.go
+  - /models/components/connectivity.go
+  - /models/components/errorresponse.go
+  - /models/components/export.go
+  - /models/components/exportcreate.go
+  - /models/components/gettenanthostresponse.go
+  - /models/components/gettenantidresponse.go
+  - /models/components/gettenantrefreshtokenrequest.go
+  - /models/components/gettenanuserresponse.go
+  - /models/components/httpmetadata.go
+  - /models/components/job.go
+  - /models/components/machineinfo.go
+  - /models/components/media.go
+  - /models/components/mediaassign.go
+  - /models/components/mediamodify.go
+  - /models/components/mediaprofile.go
+  - /models/components/network.go
+  - /models/components/node.go
+  - /models/components/nodedescriberesponse.go
+  - /models/components/nodeversion.go
+  - /models/components/plan.go
+  - /models/components/policy.go
+  - /models/components/refreshtoken.go
+  - /models/components/refreshtokenresponse.go
+  - /models/components/regularresponse.go
+  - /models/components/repaircmds.go
+  - /models/components/requestchangepasswordrequest.go
+  - /models/components/security.go
+  - /models/components/signin.go
+  - /models/components/signinresponse.go
+  - /models/components/signoutrequest.go
+  - /models/components/signupresponse.go
+  - /models/components/snapshot.go
+  - /models/components/successjobresponse.go
+  - /models/components/tenantcreateadminuserrequest.go
+  - /models/components/tenantcreateuserrequest.go
+  - /models/components/tenanthostdeleteresponse.go
+  - /models/components/tenanttokenresponse.go
+  - /models/components/versionresponse.go
+  - /models/components/virtualmedia.go
+  - /models/components/virtualmediacreate.go
+  - /models/components/volume.go
+  - /models/components/volumegroup.go
+  - /models/components/volumeplanoutput.go
+  - /models/operations/alertacknowledge.go
+  - /models/operations/alertslist.go
+  - /models/operations/associationcreate.go
+  - /models/operations/associationdelete.go
+  - /models/operations/associationmodify.go
+  - /models/operations/associationslist.go
+  - /models/operations/attachmentcreate.go
+  - /models/operations/attachmentdelete.go
+  - /models/operations/attachmentget.go
+  - /models/operations/attachmentmodify.go
+  - /models/operations/attachmentslist.go
+  - /models/operations/attachmentslistall.go
+  - /models/operations/attachmentslistforvolume.go
+  - /models/operations/autoprovisionvolumes.go
+  - /models/operations/batchvolumesplan.go
+  - /models/operations/capacitygroupget.go
+  - /models/operations/changepassword.go
+  - /models/operations/changepasswordloggedin.go
+  - /models/operations/connectivitieslist.go
+  - /models/operations/connectivitycreate.go
+  - /models/operations/connectivitydelete.go
+  - /models/operations/connectivityget.go
+  - /models/operations/connectivitymodify.go
+  - /models/operations/consistencygroupget.go
+  - /models/operations/consistencygroupsnapshotcreate.go
+  - /models/operations/exportcreate.go
+  - /models/operations/exportdelete.go
+  - /models/operations/exportslist.go
+  - /models/operations/getlogtenantidlogfile.go
+  - /models/operations/getmachineinfo.go
+  - /models/operations/getsubscription.go
+  - /models/operations/jobdelete.go
+  - /models/operations/jobget.go
+  - /models/operations/jobresumesuspend.go
+  - /models/operations/jobslist.go
+  - /models/operations/mediaassign.go
+  - /models/operations/mediaassignlegacy.go
+  - /models/operations/mediadelete.go
+  - /models/operations/mediadiagnose.go
+  - /models/operations/mediadrain.go
+  - /models/operations/mediaget.go
+  - /models/operations/medialist.go
+  - /models/operations/mediamodify.go
+  - /models/operations/mediaprofilemodify.go
+  - /models/operations/mediaunassign.go
+  - /models/operations/mediaunassignlegacy.go
+  - /models/operations/networkcreate.go
+  - /models/operations/networkdelete.go
+  - /models/operations/networkget.go
+  - /models/operations/networkmodify.go
+  - /models/operations/networkslist.go
+  - /models/operations/nodecollectlogs.go
+  - /models/operations/nodedelete.go
+  - /models/operations/nodedescribe.go
+  - /models/operations/nodedrain.go
+  - /models/operations/nodeget.go
+  - /models/operations/noderepair.go
+  - /models/operations/nodesettags.go
+  - /models/operations/nodeslist.go
+  - /models/operations/nodeupgrade.go
+  - /models/operations/nodeupgradeforsupport.go
+  - /models/operations/optionsalerts.go
+  - /models/operations/optionsalertsalertacknowledge.go
+  - /models/operations/optionsassociations.go
+  - /models/operations/optionsassociationsassociation.go
+  - /models/operations/optionsattachments.go
+  - /models/operations/optionsautoprovisionvolumes.go
+  - /models/operations/optionsazuremarketplacesubscription.go
+  - /models/operations/optionscapacitygroups.go
+  - /models/operations/optionscharts.go
+  - /models/operations/optionschartsproxyplus.go
+  - /models/operations/optionsconnectivities.go
+  - /models/operations/optionsconnectivitiesconnectivity.go
+  - /models/operations/optionsexports.go
+  - /models/operations/optionsexportsexport.go
+  - /models/operations/optionsjobs.go
+  - /models/operations/optionsjobsjob.go
+  - /models/operations/optionsjobsjobresumesuspendstate.go
+  - /models/operations/optionslogtenantidlogfile.go
+  - /models/operations/optionsmedia.go
+  - /models/operations/optionsmediamedia.go
+  - /models/operations/optionsmediamediaassign.go
+  - /models/operations/optionsmediamediadrain.go
+  - /models/operations/optionsmediamediaprofile.go
+  - /models/operations/optionsmediamediatenantdiagnose.go
+  - /models/operations/optionsmediamediaunassign.go
+  - /models/operations/optionsnetworks.go
+  - /models/operations/optionsnetworksnetwork.go
+  - /models/operations/optionsnodes.go
+  - /models/operations/optionsnodeslogsnodetenant.go
+  - /models/operations/optionsnodesnode.go
+  - /models/operations/optionsnodesnodedescribe.go
+  - /models/operations/optionsnodesnodedrain.go
+  - /models/operations/optionsnodesrepairnodetenant.go
+  - /models/operations/optionsnodestagsnode.go
+  - /models/operations/optionsnodesupgradenode.go
+  - /models/operations/optionsnodesupgradenodetenanttenant.go
+  - /models/operations/optionspolicies.go
+  - /models/operations/optionspoliciespolicy.go
+  - /models/operations/optionspoliciespolicysizesizezonezone.go
+  - /models/operations/optionspoliciespolicyvolumes.go
+  - /models/operations/optionssignin.go
+  - /models/operations/optionssignout.go
+  - /models/operations/optionssignup.go
+  - /models/operations/optionssnapshots.go
+  - /models/operations/optionssystemmachineinfo.go
+  - /models/operations/optionstenantapiaccesscredentialsrefresh.go
+  - /models/operations/optionstenantrefreshtoken.go
+  - /models/operations/optionstenanttenanthost.go
+  - /models/operations/optionstenanttenanthostcredentials.go
+  - /models/operations/optionstenanttenantid.go
+  - /models/operations/optionstenanttenantidtenanthoststenanthost.go
+  - /models/operations/optionstenanttoken.go
+  - /models/operations/optionstenantuser.go
+  - /models/operations/optionstenantuserchangepassword.go
+  - /models/operations/optionstenantuserchangepasswordloggedin.go
+  - /models/operations/optionstenantuserconfirmation.go
+  - /models/operations/optionstenantuserrequestchangepassword.go
+  - /models/operations/optionsversion.go
+  - /models/operations/optionsvirtualmedia.go
+  - /models/operations/optionsvirtualmediamedia.go
+  - /models/operations/optionsvolumes.go
+  - /models/operations/optionsvolumesplan.go
+  - /models/operations/optionsvolumessnapshot.go
+  - /models/operations/optionsvolumessnapshotsnapshotgroupname.go
+  - /models/operations/optionsvolumesvolume.go
+  - /models/operations/optionsvolumesvolumeattachments.go
+  - /models/operations/optionsvolumesvolumedescribe.go
+  - /models/operations/optionsvolumesvolumerecover.go
+  - /models/operations/optionsvolumesvolumesnapshots.go
+  - /models/operations/optionsvolumesvolumesnapshotssnapshot.go
+  - /models/operations/optionsvolumesvolumesnapshotssnapshotattachments.go
+  - /models/operations/optionsvolumesvolumesnapshotssnapshotattachmentsnode.go
+  - /models/operations/optionsvolumesvolumesnapshotssnapshotrollback.go
+  - /models/operations/policieslist.go
+  - /models/operations/policycreate.go
+  - /models/operations/policydelete.go
+  - /models/operations/policyget.go
+  - /models/operations/policygetvolumes.go
+  - /models/operations/policymodify.go
+  - /models/operations/policyplan.go
+  - /models/operations/requestchangepassword.go
+  - /models/operations/signin.go
+  - /models/operations/signout.go
+  - /models/operations/snapshotcreate.go
+  - /models/operations/snapshotdelete.go
+  - /models/operations/snapshotget.go
+  - /models/operations/snapshotmodify.go
+  - /models/operations/snapshotrollback.go
+  - /models/operations/snapshotslist.go
+  - /models/operations/snapshotslistall.go
+  - /models/operations/tenantapiaccessrefreshtoken.go
+  - /models/operations/tenanthostaccesscredentials.go
+  - /models/operations/tenanthostdelete.go
+  - /models/operations/tenanthostget.go
+  - /models/operations/tenantidget.go
+  - /models/operations/tenantrefreshtoken.go
+  - /models/operations/tenanttoken.go
+  - /models/operations/tenantusercreate.go
+  - /models/operations/tenantuserget.go
+  - /models/operations/userconfirm.go
+  - /models/operations/usercreate.go
+  - /models/operations/versionget.go
+  - /models/operations/virtualmediacreate.go
+  - /models/operations/virtualmediadelete.go
+  - /models/operations/virtualmedialist.go
+  - /models/operations/volumecreate.go
+  - /models/operations/volumedelete.go
+  - /models/operations/volumedescribe.go
+  - /models/operations/volumeget.go
+  - /models/operations/volumemodify.go
+  - /models/operations/volumerecoverinitiate.go
+  - /models/operations/volumeslist.go
+  - USAGE.md
+  - docs/models/apierrors/errorresponse.md
+  - docs/models/apierrors/gettenanthostresponse.md
+  - docs/models/apierrors/gettenantidresponse.md
+  - docs/models/apierrors/gettenanuserresponse.md
+  - docs/models/apierrors/signupresponse.md
+  - docs/models/apierrors/tenanthostdeleteresponse.md
+  - docs/models/components/alert.md
+  - docs/models/components/alertseverity.md
+  - docs/models/components/alertstate.md
+  - docs/models/components/alerttype.md
+  - docs/models/components/alertunderlyingobjecttype.md
+  - docs/models/components/args.md
+  - docs/models/components/association.md
+  - docs/models/components/associationcreate.md
+  - docs/models/components/associationmodify.md
+  - docs/models/components/attachment.md
+  - docs/models/components/attachmentinput.md
+  - docs/models/components/authentication.md
+  - docs/models/components/autoprovisioninfraplan.md
+  - docs/models/components/autoprovisionvolume.md
+  - docs/models/components/autoprovisionvolumeostype.md
+  - docs/models/components/capacitygroup.md
+  - docs/models/components/capacityoptimization.md
+  - docs/models/components/changepasswordrequest.md
+  - docs/models/components/changepasswordrequestloggedin.md
+  - docs/models/components/chap.md
+  - docs/models/components/connectivity.md
+  - docs/models/components/consistency.md
+  - docs/models/components/errorresponse.md
+  - docs/models/components/export.md
+  - docs/models/components/exportcreate.md
+  - docs/models/components/flavor.md
+  - docs/models/components/gettenanthostresponse.md
+  - docs/models/components/gettenantidresponse.md
+  - docs/models/components/gettenantrefreshtokenrequest.md
+  - docs/models/components/gettenanuserresponse.md
+  - docs/models/components/httpmetadata.md
+  - docs/models/components/job.md
+  - docs/models/components/machineinfo.md
+  - docs/models/components/media.md
+  - docs/models/components/mediaassign.md
+  - docs/models/components/mediamodify.md
+  - docs/models/components/mediaprofile.md
+  - docs/models/components/network.md
+  - docs/models/components/networktype.md
+  - docs/models/components/node.md
+  - docs/models/components/nodedescriberesponse.md
+  - docs/models/components/nodes.md
+  - docs/models/components/nodeversion.md
+  - docs/models/components/ostype.md
+  - docs/models/components/plan.md
+  - docs/models/components/policy.md
+  - docs/models/components/policyinput.md
+  - docs/models/components/refreshtoken.md
+  - docs/models/components/refreshtokenresponse.md
+  - docs/models/components/regularresponse.md
+  - docs/models/components/repaircmds.md
+  - docs/models/components/requestchangepasswordrequest.md
+  - docs/models/components/security.md
+  - docs/models/components/signin.md
+  - docs/models/components/signinresponse.md
+  - docs/models/components/signoutrequest.md
+  - docs/models/components/signupresponse.md
+  - docs/models/components/snapshot.md
+  - docs/models/components/snapshotinput.md
+  - docs/models/components/successjobresponse.md
+  - docs/models/components/tags.md
+  - docs/models/components/tenantcreateadminuserrequest.md
+  - docs/models/components/tenantcreateuserrequest.md
+  - docs/models/components/tenanthostdeleteresponse.md
+  - docs/models/components/tenanttokenresponse.md
+  - docs/models/components/type.md
+  - docs/models/components/versionresponse.md
+  - docs/models/components/virtualmedia.md
+  - docs/models/components/virtualmediacreate.md
+  - docs/models/components/virtualmediacreateflavor.md
+  - docs/models/components/virtualmediaflavor.md
+  - docs/models/components/volume.md
+  - docs/models/components/volumegroup.md
+  - docs/models/components/volumeinput.md
+  - docs/models/components/volumeplanoutput.md
+  - docs/models/operations/alertacknowledgerequest.md
+  - docs/models/operations/alertacknowledgeresponse.md
+  - docs/models/operations/alertslistrequest.md
+  - docs/models/operations/alertslistresponse.md
+  - docs/models/operations/associationcreateresponse.md
+  - docs/models/operations/associationdeleterequest.md
+  - docs/models/operations/associationdeleteresponse.md
+  - docs/models/operations/associationmodifyrequest.md
+  - docs/models/operations/associationmodifyresponse.md
+  - docs/models/operations/associationslistrequest.md
+  - docs/models/operations/associationslistresponse.md
+  - docs/models/operations/attachmentcreaterequest.md
+  - docs/models/operations/attachmentcreateresponse.md
+  - docs/models/operations/attachmentdeleterequest.md
+  - docs/models/operations/attachmentdeleteresponse.md
+  - docs/models/operations/attachmentgetrequest.md
+  - docs/models/operations/attachmentgetresponse.md
+  - docs/models/operations/attachmentmodifyrequest.md
+  - docs/models/operations/attachmentmodifyresponse.md
+  - docs/models/operations/attachmentslistallresponse.md
+  - docs/models/operations/attachmentslistforvolumerequest.md
+  - docs/models/operations/attachmentslistforvolumeresponse.md
+  - docs/models/operations/attachmentslistrequest.md
+  - docs/models/operations/attachmentslistresponse.md
+  - docs/models/operations/autoprovisionvolumesresponse.md
+  - docs/models/operations/batchvolumesplanrequest.md
+  - docs/models/operations/batchvolumesplanrequestbody.md
+  - docs/models/operations/batchvolumesplanresponse.md
+  - docs/models/operations/capacitygroupgetresponse.md
+  - docs/models/operations/changepasswordloggedinresponse.md
+  - docs/models/operations/changepasswordresponse.md
+  - docs/models/operations/connectivitieslistresponse.md
+  - docs/models/operations/connectivitycreateresponse.md
+  - docs/models/operations/connectivitydeleterequest.md
+  - docs/models/operations/connectivitydeleteresponse.md
+  - docs/models/operations/connectivitygetrequest.md
+  - docs/models/operations/connectivitygetresponse.md
+  - docs/models/operations/connectivitymodifyrequest.md
+  - docs/models/operations/connectivitymodifyresponse.md
+  - docs/models/operations/consistency.md
+  - docs/models/operations/consistencygroupgetrequest.md
+  - docs/models/operations/consistencygroupgetresponse.md
+  - docs/models/operations/consistencygroupsnapshotcreaterequestbody.md
+  - docs/models/operations/consistencygroupsnapshotcreateresponse.md
+  - docs/models/operations/exportcreateresponse.md
+  - docs/models/operations/exportdeleterequest.md
+  - docs/models/operations/exportdeleteresponse.md
+  - docs/models/operations/exportslistrequest.md
+  - docs/models/operations/exportslistresponse.md
+  - docs/models/operations/getlogtenantidlogfilerequest.md
+  - docs/models/operations/getlogtenantidlogfileresponse.md
+  - docs/models/operations/getmachineinforesponse.md
+  - docs/models/operations/getsubscriptionrequest.md
+  - docs/models/operations/getsubscriptionresponse.md
+  - docs/models/operations/jobdeleterequest.md
+  - docs/models/operations/jobdeleteresponse.md
+  - docs/models/operations/jobgetrequest.md
+  - docs/models/operations/jobgetresponse.md
+  - docs/models/operations/jobresumesuspendrequest.md
+  - docs/models/operations/jobresumesuspendresponse.md
+  - docs/models/operations/jobslistrequest.md
+  - docs/models/operations/jobslistresponse.md
+  - docs/models/operations/mediaassignlegacyrequest.md
+  - docs/models/operations/mediaassignlegacyresponse.md
+  - docs/models/operations/mediaassignrequest.md
+  - docs/models/operations/mediaassignresponse.md
+  - docs/models/operations/mediadeleterequest.md
+  - docs/models/operations/mediadeleteresponse.md
+  - docs/models/operations/mediadiagnoserequest.md
+  - docs/models/operations/mediadiagnoseresponse.md
+  - docs/models/operations/mediadrainrequest.md
+  - docs/models/operations/mediadrainresponse.md
+  - docs/models/operations/mediagetrequest.md
+  - docs/models/operations/mediagetresponse.md
+  - docs/models/operations/medialistresponse.md
+  - docs/models/operations/mediamodifyrequest.md
+  - docs/models/operations/mediamodifyresponse.md
+  - docs/models/operations/mediaprofilemodifyrequest.md
+  - docs/models/operations/mediaprofilemodifyresponse.md
+  - docs/models/operations/mediaunassignlegacyrequest.md
+  - docs/models/operations/mediaunassignlegacyresponse.md
+  - docs/models/operations/mediaunassignrequest.md
+  - docs/models/operations/mediaunassignresponse.md
+  - docs/models/operations/networkcreateresponse.md
+  - docs/models/operations/networkdeleterequest.md
+  - docs/models/operations/networkdeleteresponse.md
+  - docs/models/operations/networkgetrequest.md
+  - docs/models/operations/networkgetresponse.md
+  - docs/models/operations/networkmodifyrequest.md
+  - docs/models/operations/networkmodifyresponse.md
+  - docs/models/operations/networkslistresponse.md
+  - docs/models/operations/nodecollectlogsrequest.md
+  - docs/models/operations/nodecollectlogsresponse.md
+  - docs/models/operations/nodedeleterequest.md
+  - docs/models/operations/nodedeleteresponse.md
+  - docs/models/operations/nodedescriberequest.md
+  - docs/models/operations/nodedescriberesponse.md
+  - docs/models/operations/nodedrainrequest.md
+  - docs/models/operations/nodedrainresponse.md
+  - docs/models/operations/nodegetrequest.md
+  - docs/models/operations/nodegetresponse.md
+  - docs/models/operations/noderepairrequest.md
+  - docs/models/operations/noderepairresponse.md
+  - docs/models/operations/nodesettagsrequest.md
+  - docs/models/operations/nodesettagsresponse.md
+  - docs/models/operations/nodeslistresponse.md
+  - docs/models/operations/nodeupgradeforsupportrequest.md
+  - docs/models/operations/nodeupgradeforsupportresponse.md
+  - docs/models/operations/nodeupgraderequest.md
+  - docs/models/operations/nodeupgraderesponse.md
+  - docs/models/operations/option.md
+  - docs/models/operations/optionsalertsalertacknowledgerequest.md
+  - docs/models/operations/optionsalertsalertacknowledgeresponse.md
+  - docs/models/operations/optionsalertsresponse.md
+  - docs/models/operations/optionsassociationsassociationrequest.md
+  - docs/models/operations/optionsassociationsassociationresponse.md
+  - docs/models/operations/optionsassociationsresponse.md
+  - docs/models/operations/optionsattachmentsresponse.md
+  - docs/models/operations/optionsautoprovisionvolumesresponse.md
+  - docs/models/operations/optionsazuremarketplacesubscriptionresponse.md
+  - docs/models/operations/optionscapacitygroupsresponse.md
+  - docs/models/operations/optionschartsproxyplusresponse.md
+  - docs/models/operations/optionschartsresponse.md
+  - docs/models/operations/optionsconnectivitiesconnectivityrequest.md
+  - docs/models/operations/optionsconnectivitiesconnectivityresponse.md
+  - docs/models/operations/optionsconnectivitiesresponse.md
+  - docs/models/operations/optionsexportsexportrequest.md
+  - docs/models/operations/optionsexportsexportresponse.md
+  - docs/models/operations/optionsexportsresponse.md
+  - docs/models/operations/optionsjobsjobrequest.md
+  - docs/models/operations/optionsjobsjobresponse.md
+  - docs/models/operations/optionsjobsjobresumesuspendstaterequest.md
+  - docs/models/operations/optionsjobsjobresumesuspendstateresponse.md
+  - docs/models/operations/optionsjobsresponse.md
+  - docs/models/operations/optionslogtenantidlogfilerequest.md
+  - docs/models/operations/optionslogtenantidlogfileresponse.md
+  - docs/models/operations/optionsmediamediaassignrequest.md
+  - docs/models/operations/optionsmediamediaassignresponse.md
+  - docs/models/operations/optionsmediamediadrainrequest.md
+  - docs/models/operations/optionsmediamediadrainresponse.md
+  - docs/models/operations/optionsmediamediaprofilerequest.md
+  - docs/models/operations/optionsmediamediaprofileresponse.md
+  - docs/models/operations/optionsmediamediarequest.md
+  - docs/models/operations/optionsmediamediaresponse.md
+  - docs/models/operations/optionsmediamediatenantdiagnoserequest.md
+  - docs/models/operations/optionsmediamediatenantdiagnoseresponse.md
+  - docs/models/operations/optionsmediamediaunassignrequest.md
+  - docs/models/operations/optionsmediamediaunassignresponse.md
+  - docs/models/operations/optionsmediaresponse.md
+  - docs/models/operations/optionsnetworksnetworkrequest.md
+  - docs/models/operations/optionsnetworksnetworkresponse.md
+  - docs/models/operations/optionsnetworksresponse.md
+  - docs/models/operations/optionsnodeslogsnodetenantrequest.md
+  - docs/models/operations/optionsnodeslogsnodetenantresponse.md
+  - docs/models/operations/optionsnodesnodedescriberequest.md
+  - docs/models/operations/optionsnodesnodedescriberesponse.md
+  - docs/models/operations/optionsnodesnodedrainrequest.md
+  - docs/models/operations/optionsnodesnodedrainresponse.md
+  - docs/models/operations/optionsnodesnoderequest.md
+  - docs/models/operations/optionsnodesnoderesponse.md
+  - docs/models/operations/optionsnodesrepairnodetenantrequest.md
+  - docs/models/operations/optionsnodesrepairnodetenantresponse.md
+  - docs/models/operations/optionsnodesresponse.md
+  - docs/models/operations/optionsnodestagsnoderequest.md
+  - docs/models/operations/optionsnodestagsnoderesponse.md
+  - docs/models/operations/optionsnodesupgradenoderequest.md
+  - docs/models/operations/optionsnodesupgradenoderesponse.md
+  - docs/models/operations/optionsnodesupgradenodetenanttenantrequest.md
+  - docs/models/operations/optionsnodesupgradenodetenanttenantresponse.md
+  - docs/models/operations/optionspoliciespolicyrequest.md
+  - docs/models/operations/optionspoliciespolicyresponse.md
+  - docs/models/operations/optionspoliciespolicysizesizezonezonerequest.md
+  - docs/models/operations/optionspoliciespolicysizesizezonezoneresponse.md
+  - docs/models/operations/optionspoliciespolicyvolumesrequest.md
+  - docs/models/operations/optionspoliciespolicyvolumesresponse.md
+  - docs/models/operations/optionspoliciesresponse.md
+  - docs/models/operations/optionssigninresponse.md
+  - docs/models/operations/optionssignoutresponse.md
+  - docs/models/operations/optionssignupresponse.md
+  - docs/models/operations/optionssnapshotsresponse.md
+  - docs/models/operations/optionssystemmachineinforesponse.md
+  - docs/models/operations/optionstenantapiaccesscredentialsrefreshrequest.md
+  - docs/models/operations/optionstenantapiaccesscredentialsrefreshresponse.md
+  - docs/models/operations/optionstenantrefreshtokenresponse.md
+  - docs/models/operations/optionstenanttenanthostcredentialsresponse.md
+  - docs/models/operations/optionstenanttenanthostresponse.md
+  - docs/models/operations/optionstenanttenantidresponse.md
+  - docs/models/operations/optionstenanttenantidtenanthoststenanthostrequest.md
+  - docs/models/operations/optionstenanttenantidtenanthoststenanthostresponse.md
+  - docs/models/operations/optionstenanttokenresponse.md
+  - docs/models/operations/optionstenantuserchangepasswordloggedinresponse.md
+  - docs/models/operations/optionstenantuserchangepasswordresponse.md
+  - docs/models/operations/optionstenantuserconfirmationresponse.md
+  - docs/models/operations/optionstenantuserrequestchangepasswordresponse.md
+  - docs/models/operations/optionstenantuserresponse.md
+  - docs/models/operations/optionsversionresponse.md
+  - docs/models/operations/optionsvirtualmediamediarequest.md
+  - docs/models/operations/optionsvirtualmediamediaresponse.md
+  - docs/models/operations/optionsvirtualmediaresponse.md
+  - docs/models/operations/optionsvolumesplanresponse.md
+  - docs/models/operations/optionsvolumesresponse.md
+  - docs/models/operations/optionsvolumessnapshotresponse.md
+  - docs/models/operations/optionsvolumessnapshotsnapshotgroupnamerequest.md
+  - docs/models/operations/optionsvolumessnapshotsnapshotgroupnameresponse.md
+  - docs/models/operations/optionsvolumesvolumeattachmentsrequest.md
+  - docs/models/operations/optionsvolumesvolumeattachmentsresponse.md
+  - docs/models/operations/optionsvolumesvolumedescriberequest.md
+  - docs/models/operations/optionsvolumesvolumedescriberesponse.md
+  - docs/models/operations/optionsvolumesvolumerecoverrequest.md
+  - docs/models/operations/optionsvolumesvolumerecoverresponse.md
+  - docs/models/operations/optionsvolumesvolumerequest.md
+  - docs/models/operations/optionsvolumesvolumeresponse.md
+  - docs/models/operations/optionsvolumesvolumesnapshotsrequest.md
+  - docs/models/operations/optionsvolumesvolumesnapshotsresponse.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotattachmentsnoderequest.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotattachmentsnoderesponse.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotattachmentsrequest.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotattachmentsresponse.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotrequest.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotresponse.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotrollbackrequest.md
+  - docs/models/operations/optionsvolumesvolumesnapshotssnapshotrollbackresponse.md
+  - docs/models/operations/policieslistresponse.md
+  - docs/models/operations/policycreateresponse.md
+  - docs/models/operations/policydeleterequest.md
+  - docs/models/operations/policydeleteresponse.md
+  - docs/models/operations/policygetrequest.md
+  - docs/models/operations/policygetresponse.md
+  - docs/models/operations/policygetvolumesrequest.md
+  - docs/models/operations/policygetvolumesresponse.md
+  - docs/models/operations/policymodifyrequest.md
+  - docs/models/operations/policymodifyresponse.md
+  - docs/models/operations/policyplanrequest.md
+  - docs/models/operations/policyplanresponse.md
+  - docs/models/operations/requestchangepasswordresponse.md
+  - docs/models/operations/signinresponse.md
+  - docs/models/operations/signoutresponse.md
+  - docs/models/operations/snapshotcreaterequest.md
+  - docs/models/operations/snapshotcreateresponse.md
+  - docs/models/operations/snapshotdeleterequest.md
+  - docs/models/operations/snapshotdeleteresponse.md
+  - docs/models/operations/snapshotgetrequest.md
+  - docs/models/operations/snapshotgetresponse.md
+  - docs/models/operations/snapshotmodifyrequest.md
+  - docs/models/operations/snapshotmodifyresponse.md
+  - docs/models/operations/snapshotrollbackrequest.md
+  - docs/models/operations/snapshotrollbackresponse.md
+  - docs/models/operations/snapshotslistallrequest.md
+  - docs/models/operations/snapshotslistallresponse.md
+  - docs/models/operations/snapshotslistrequest.md
+  - docs/models/operations/snapshotslistresponse.md
+  - docs/models/operations/tenantapiaccessrefreshtokenrequest.md
+  - docs/models/operations/tenantapiaccessrefreshtokenresponse.md
+  - docs/models/operations/tenanthostaccesscredentialsrequest.md
+  - docs/models/operations/tenanthostaccesscredentialsresponse.md
+  - docs/models/operations/tenanthostdeleterequest.md
+  - docs/models/operations/tenanthostdeleteresponse.md
+  - docs/models/operations/tenanthostgetrequest.md
+  - docs/models/operations/tenanthostgetresponse.md
+  - docs/models/operations/tenantidgetrequest.md
+  - docs/models/operations/tenantidgetresponse.md
+  - docs/models/operations/tenantrefreshtokenresponse.md
+  - docs/models/operations/tenanttokenresponse.md
+  - docs/models/operations/tenantusercreateresponse.md
+  - docs/models/operations/tenantusergetresponse.md
+  - docs/models/operations/userconfirmrequest.md
+  - docs/models/operations/userconfirmresponse.md
+  - docs/models/operations/usercreateresponse.md
+  - docs/models/operations/versiongetresponse.md
+  - docs/models/operations/virtualmediacreateresponse.md
+  - docs/models/operations/virtualmediadeleterequest.md
+  - docs/models/operations/virtualmediadeleteresponse.md
+  - docs/models/operations/virtualmedialistrequest.md
+  - docs/models/operations/virtualmedialistresponse.md
+  - docs/models/operations/volumecreateresponse.md
+  - docs/models/operations/volumedeleterequest.md
+  - docs/models/operations/volumedeleteresponse.md
+  - docs/models/operations/volumedescriberequest.md
+  - docs/models/operations/volumedescriberesponse.md
+  - docs/models/operations/volumegetrequest.md
+  - docs/models/operations/volumegetresponse.md
+  - docs/models/operations/volumemodifyrequest.md
+  - docs/models/operations/volumemodifyresponse.md
+  - docs/models/operations/volumerecoverinitiaterequest.md
+  - docs/models/operations/volumerecoverinitiateresponse.md
+  - docs/models/operations/volumes.md
+  - docs/models/operations/volumeslistrequest.md
+  - docs/models/operations/volumeslistresponse.md
+  - docs/sdks/volumezsdk/README.md
+  - go.mod
+  - internal/hooks/hooks.go
+  - internal/utils/contenttype.go
+  - internal/utils/env.go
+  - internal/utils/form.go
+  - internal/utils/headers.go
+  - internal/utils/json.go
+  - internal/utils/pathparams.go
+  - internal/utils/queryparams.go
+  - internal/utils/requestbody.go
+  - internal/utils/retries.go
+  - internal/utils/security.go
+  - internal/utils/utils.go
+  - models/apierrors/apierror.go
+  - models/operations/options.go
+  - retry/config.go
+  - types/bigint.go
+  - types/date.go
+  - types/datetime.go
+  - types/decimal.go
+  - types/pointers.go
+  - volumezsdk.go
+examples:
+  updatePet:
+    speakeasy-default-update-pet:
+      requestBody:
+        application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value>", "<value>"]}
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value>"]}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  addPet:
+    speakeasy-default-add-pet:
+      requestBody:
+        application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value>"]}
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value>"]}
+  findPetsByStatus:
+    speakeasy-default-find-pets-by-status:
+      responses:
+        "200":
+          application/json: [{"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}, {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value>"]}, {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}]
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  findPetsByTags:
+    speakeasy-default-find-pets-by-tags:
+      responses:
+        "200":
+          application/json: [{"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value>", "<value>", "<value>"]}]
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  getPetById:
+    speakeasy-default-get-pet-by-id:
+      parameters:
+        path:
+          petId: 504151
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": []}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  deletePet:
+    speakeasy-default-delete-pet:
+      parameters:
+        path:
+          petId: 441876
+        header: {}
+      responses:
+        "200":
+          application/json: {"id": 10, "name": "doggie", "category": {"id": 1, "name": "Dogs"}, "photoUrls": ["<value>"]}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  uploadFile:
+    speakeasy-default-upload-file:
+      parameters:
+        path:
+          petId: 565380
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+  getInventory:
+    speakeasy-default-get-inventory:
+      responses:
+        "200":
+          application/json: {"key": 373538}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  placeOrder:
+    speakeasy-default-place-order:
+      requestBody:
+        application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  getOrderById:
+    speakeasy-default-get-order-by-id:
+      parameters:
+        path:
+          orderId: 614993
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  deleteOrder:
+    speakeasy-default-delete-order:
+      parameters:
+        path:
+          orderId: 127902
+      responses:
+        "200":
+          application/json: {"id": 10, "petId": 198772, "quantity": 7, "status": "approved"}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  createUser:
+    speakeasy-default-create-user:
+      requestBody:
+        application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  createUsersWithListInput:
+    speakeasy-default-create-users-with-list-input:
+      requestBody:
+        application/json: []
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  loginUser:
+    speakeasy-default-login-user:
+      responses:
+        "200":
+          application/json: "<value>"
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  logoutUser: {}
+  getUserByName:
+    speakeasy-default-get-user-by-name:
+      parameters:
+        path:
+          username: "Zachery_Lubowitz15"
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  updateUser:
+    speakeasy-default-update-user:
+      parameters:
+        path:
+          username: "Dandre_Hand41"
+      requestBody:
+        application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+  deleteUser:
+    speakeasy-default-delete-user:
+      parameters:
+        path:
+          username: "Demetris_Schmitt"
+      responses:
+        "200":
+          application/json: {"id": 10, "username": "theUser", "firstName": "John", "lastName": "James", "email": "john@email.com", "password": "12345", "phone": "12345", "userStatus": 1}
+        "400":
+          application/json: {"status": 400, "error": "Bad request"}
+        "401":
+          application/json: {"status": 401, "error": "Unauthorized"}
+        "404":
+          application/json: {"status": 404, "error": "Not Found", "code": "object_not_found"}
+  VolumesList:
+    speakeasy-default-volumes-list:
+      responses:
+        "200":
+          application/json: [{"name": "<value>", "type": "block", "size": 719023, "policy": "<value>"}, {"name": "<value>", "type": "block", "size": 163309, "policy": "<value>"}]
+        "400":
+          application/json: {}
+  VolumeCreate:
+    speakeasy-default-volume-create:
+      requestBody:
+        application/json: {"name": "<value>", "type": "file", "size": 843324, "policy": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes:
+    speakeasy-default-options-/volumes:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  BatchVolumesPlan:
+    speakeasy-default-batch-volumes-plan:
+      requestBody:
+        application/json: {"Volumes": []}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/plan:
+    speakeasy-default-options-/volumes/plan:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ConsistencyGroupSnapshotCreate:
+    speakeasy-default-consistency-group-snapshot-create:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/snapshot:
+    speakeasy-default-options-/volumes/snapshot:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ConsistencyGroupGet:
+    speakeasy-default-consistency-group-get:
+      parameters:
+        path:
+          snapshot_group_name: "<value>"
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  options_/volumes/snapshot/{snapshot_group_name}:
+    speakeasy-default-options-/volumes/snapshot/{snapshot-group-name}:
+      parameters:
+        path:
+          snapshot_group_name: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  VolumeGet:
+    speakeasy-default-volume-get:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "type": "block", "size": 833039, "policy": "<value>"}
+        "400":
+          application/json: {}
+  VolumeDelete:
+    speakeasy-default-volume-delete:
+      parameters:
+        path:
+          volume: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}:
+    speakeasy-default-options-/volumes/{volume}:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  VolumeModify:
+    speakeasy-default-volume-modify:
+      parameters:
+        path:
+          volume: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "type": "block", "size": 446700, "policy": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  VolumeDescribe:
+    speakeasy-default-volume-describe:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/describe:
+    speakeasy-default-options-/volumes/{volume}/describe:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  VolumeRecoverInitiate:
+    speakeasy-default-volume-recover-initiate:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/recover:
+    speakeasy-default-options-/volumes/{volume}/recover:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  SnapshotsList:
+    speakeasy-default-snapshots-list:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "200":
+          application/json: [{"name": "<value>", "consistency": "application"}, {"name": "<value>", "consistency": "application"}, {"name": "<value>", "consistency": "application"}]
+        "400":
+          application/json: {}
+  SnapshotCreate:
+    speakeasy-default-snapshot-create:
+      parameters:
+        path:
+          volume: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "consistency": "crash"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/snapshots:
+    speakeasy-default-options-/volumes/{volume}/snapshots:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  SnapshotGet:
+    speakeasy-default-snapshot-get:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "consistency": "application"}
+        "400":
+          application/json: {}
+  SnapshotDelete:
+    speakeasy-default-snapshot-delete:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/snapshots/{snapshot}:
+    speakeasy-default-options-/volumes/{volume}/snapshots/{snapshot}:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  SnapshotModify:
+    speakeasy-default-snapshot-modify:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "consistency": "crash"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/snapshots/{snapshot}/rollback:
+    speakeasy-default-options-/volumes/{volume}/snapshots/{snapshot}/rollback:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  SnapshotRollback:
+    speakeasy-default-snapshot-rollback:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  AssociationsList:
+    speakeasy-default-associations-list:
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  AssociationCreate:
+    speakeasy-default-association-create:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/associations:
+    speakeasy-default-options-/associations:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AssociationDelete:
+    speakeasy-default-association-delete:
+      parameters:
+        path:
+          association: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/associations/{association}:
+    speakeasy-default-options-/associations/{association}:
+      parameters:
+        path:
+          association: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AssociationModify:
+    speakeasy-default-association-modify:
+      parameters:
+        path:
+          association: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  ExportsList:
+    speakeasy-default-exports-list:
+      responses:
+        "200":
+          application/json: [{}]
+        "400":
+          application/json: {}
+  ExportCreate:
+    speakeasy-default-export-create:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/exports/:
+    speakeasy-default-options-/exports/:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ExportDelete:
+    speakeasy-default-export-delete:
+      parameters:
+        path:
+          export: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/exports/{export}:
+    speakeasy-default-options-/exports/{export}:
+      parameters:
+        path:
+          export: "<value>"
+        query: {}
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AutoProvisionVolumes:
+    speakeasy-default-auto-provision-volumes:
+      requestBody:
+        application/json: {"volume": {"name": "<value>", "type": "block", "size": 488662, "policy": "<value>"}, "cloudProvider": "<value>", "accountId": "<id>", "region": "<value>", "availabilityZones": [], "subnets": [], "osType": "Rhel"}
+      responses:
+        "200":
+          application/json: {}
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/autoprovisionvolumes:
+    speakeasy-default-options-/autoprovisionvolumes:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  SnapshotsListAll:
+    speakeasy-default-snapshots-list-all:
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  options_/snapshots:
+    speakeasy-default-options-/snapshots:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AttachmentsListAll:
+    speakeasy-default-attachments-list-all:
+      responses:
+        "200":
+          application/json: [{"node": "<value>"}, {"node": "<value>"}, {"node": "<value>"}]
+        "400":
+          application/json: {}
+  options_/attachments:
+    speakeasy-default-options-/attachments:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AttachmentsListForVolume:
+    speakeasy-default-attachments-list-for-volume:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/attachments:
+    speakeasy-default-options-/volumes/{volume}/attachments:
+      parameters:
+        path:
+          volume: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AttachmentsList:
+    speakeasy-default-attachments-list:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      responses:
+        "200":
+          application/json: [{"node": "<value>"}, {"node": "<value>"}, {"node": "<value>"}]
+        "400":
+          application/json: {}
+  AttachmentCreate:
+    speakeasy-default-attachment-create:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      requestBody:
+        application/json: {"node": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/snapshots/{snapshot}/attachments:
+    speakeasy-default-options-/volumes/{volume}/snapshots/{snapshot}/attachments:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AttachmentGet:
+    speakeasy-default-attachment-get:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+          node: "<value>"
+      responses:
+        "200":
+          application/json: {"node": "<value>"}
+        "400":
+          application/json: {}
+  AttachmentDelete:
+    speakeasy-default-attachment-delete:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+          node: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/volumes/{volume}/snapshots/{snapshot}/attachments/{node}:
+    speakeasy-default-options-/volumes/{volume}/snapshots/{snapshot}/attachments/{node}:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+          node: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AttachmentModify:
+    speakeasy-default-attachment-modify:
+      parameters:
+        path:
+          volume: "<value>"
+          snapshot: "<value>"
+          node: "<value>"
+      requestBody:
+        application/json: {"node": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodesList:
+    speakeasy-default-nodes-list:
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  options_/nodes:
+    speakeasy-default-options-/nodes:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/tags/{node}:
+    speakeasy-default-options-/nodes/tags/{node}:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeSetTags:
+    speakeasy-default-node-set-tags:
+      parameters:
+        path:
+          node: "<value>"
+      requestBody:
+        application/json: {"key": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeGet:
+    speakeasy-default-node-get:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "os": "Windows"}
+        "400":
+          application/json: {}
+  NodeDelete:
+    speakeasy-default-node-delete:
+      parameters:
+        path:
+          node: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/{node}:
+    speakeasy-default-options-/nodes/{node}:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeDrain:
+    speakeasy-default-node-drain:
+      parameters:
+        path:
+          node: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/{node}/drain:
+    speakeasy-default-options-/nodes/{node}/drain:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeDescribe:
+    speakeasy-default-node-describe:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/{node}/describe:
+    speakeasy-default-options-/nodes/{node}/describe:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeCollectLogs:
+    speakeasy-default-node-collect-logs:
+      parameters:
+        path:
+          node: "<value>"
+          tenant: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/logs/{node}/{tenant}:
+    speakeasy-default-options-/nodes/logs/{node}/{tenant}:
+      parameters:
+        path:
+          node: "<value>"
+          tenant: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeRepair:
+    speakeasy-default-node-repair:
+      parameters:
+        path:
+          node: "<value>"
+          tenant: "<value>"
+      requestBody:
+        application/json: {"cmds": ["<value>", "<value>"], "checksum": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/repair/{node}/{tenant}:
+    speakeasy-default-options-/nodes/repair/{node}/{tenant}:
+      parameters:
+        path:
+          node: "<value>"
+          tenant: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeUpgrade:
+    speakeasy-default-node-upgrade:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/upgrade/{node}:
+    speakeasy-default-options-/nodes/upgrade/{node}:
+      parameters:
+        path:
+          node: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NodeUpgradeForSupport:
+    speakeasy-default-node-upgrade-for-support:
+      parameters:
+        path:
+          tenant: "<value>"
+          node: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/nodes/upgrade/{node}/tenant/{tenant}:
+    speakeasy-default-options-/nodes/upgrade/{node}/tenant/{tenant}:
+      parameters:
+        path:
+          tenant: "<value>"
+          node: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  PoliciesList:
+    speakeasy-default-policies-list:
+      responses:
+        "200":
+          application/json: [{"name": "<value>", "capacityoptimization": "capacity"}, {"name": "<value>", "capacityoptimization": "performance"}]
+        "400":
+          application/json: {}
+  PolicyCreate:
+    speakeasy-default-policy-create:
+      requestBody:
+        application/json: {"name": "<value>", "capacityoptimization": "balanced"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/policies:
+    speakeasy-default-options-/policies:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  PolicyGet:
+    speakeasy-default-policy-get:
+      parameters:
+        path:
+          policy: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "capacityoptimization": "balanced"}
+        "400":
+          application/json: {}
+  PolicyDelete:
+    speakeasy-default-policy-delete:
+      parameters:
+        path:
+          policy: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/policies/{policy}:
+    speakeasy-default-options-/policies/{policy}:
+      parameters:
+        path:
+          policy: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  PolicyModify:
+    speakeasy-default-policy-modify:
+      parameters:
+        path:
+          policy: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "capacityoptimization": "balanced"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  PolicyGetVolumes:
+    speakeasy-default-policy-get-volumes:
+      parameters:
+        path:
+          policy: "<value>"
+      responses:
+        "200":
+          application/json: [{"name": "<value>", "type": "block", "size": 904185, "policy": "<value>"}]
+        "400":
+          application/json: {}
+  options_/policies/{policy}/volumes:
+    speakeasy-default-options-/policies/{policy}/volumes:
+      parameters:
+        path:
+          policy: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  PolicyPlan:
+    speakeasy-default-policy-plan:
+      parameters:
+        path:
+          policy: "<value>"
+          size: 456938
+          zone: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/policies/{policy}/size/{size}/zone/{zone}:
+    speakeasy-default-options-/policies/{policy}/size/{size}/zone/{zone}:
+      parameters:
+        path:
+          policy: "<value>"
+          size: 922490
+          zone: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NetworksList:
+    speakeasy-default-networks-list:
+      responses:
+        "200":
+          application/json: [{"name": "<value>", "type": "storage", "ipstart": "<value>", "ipend": "<value>"}, {"name": "<value>", "type": "storage", "ipstart": "<value>", "ipend": "<value>"}, {"name": "<value>", "type": "storage", "ipstart": "<value>", "ipend": "<value>"}]
+        "400":
+          application/json: {}
+  NetworkCreate:
+    speakeasy-default-network-create:
+      requestBody:
+        application/json: {"name": "<value>", "type": "management", "ipstart": "<value>", "ipend": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/networks:
+    speakeasy-default-options-/networks:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NetworkGet:
+    speakeasy-default-network-get:
+      parameters:
+        path:
+          network: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "type": "storage", "ipstart": "<value>", "ipend": "<value>"}
+        "400":
+          application/json: {}
+  NetworkDelete:
+    speakeasy-default-network-delete:
+      parameters:
+        path:
+          network: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/networks/{network}:
+    speakeasy-default-options-/networks/{network}:
+      parameters:
+        path:
+          network: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  NetworkModify:
+    speakeasy-default-network-modify:
+      parameters:
+        path:
+          network: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "type": "storage", "ipstart": "<value>", "ipend": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  JobsList:
+    speakeasy-default-jobs-list:
+      responses:
+        "200":
+          application/json: [{}, {}]
+        "400":
+          application/json: {}
+  options_/jobs:
+    speakeasy-default-options-/jobs:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  JobGet:
+    speakeasy-default-job-get:
+      parameters:
+        path:
+          job: 615165
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  JobDelete:
+    speakeasy-default-job-delete:
+      parameters:
+        path:
+          job: 410406
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/jobs/{job}:
+    speakeasy-default-options-/jobs/{job}:
+      parameters:
+        path:
+          job: 249106
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/jobs/{job}/resume_suspend/{state}:
+    speakeasy-default-options-/jobs/{job}/resume-suspend/{state}:
+      parameters:
+        path:
+          job: 376221
+          state: 878301
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  JobResumeSuspend:
+    speakeasy-default-job-resume-suspend:
+      parameters:
+        path:
+          job: 31568
+          state: 468286
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaList:
+    speakeasy-default-media-list:
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  options_/media:
+    speakeasy-default-options-/media:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaGet:
+    speakeasy-default-media-get:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaDelete:
+    speakeasy-default-media-delete:
+      parameters:
+        path:
+          media: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/media/{media}:
+    speakeasy-default-options-/media/{media}:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaModify:
+    speakeasy-default-media-modify:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaAssignLegacy:
+    speakeasy-default-media-assign-legacy:
+      parameters:
+        path:
+          media: "<value>"
+        query: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/media/{media}/assign:
+    speakeasy-default-options-/media/{media}/assign:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaAssign:
+    speakeasy-default-media-assign:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaUnassignLegacy:
+    speakeasy-default-media-unassign-legacy:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/media/{media}/unassign:
+    speakeasy-default-options-/media/{media}/unassign:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaUnassign:
+    speakeasy-default-media-unassign:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/media/{media}/profile:
+    speakeasy-default-options-/media/{media}/profile:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaProfileModify:
+    speakeasy-default-media-profile-modify:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaDrain:
+    speakeasy-default-media-drain:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/media/{media}/drain:
+    speakeasy-default-options-/media/{media}/drain:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  MediaDiagnose:
+    speakeasy-default-media-diagnose:
+      parameters:
+        path:
+          media: "<value>"
+          tenant: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/media/{media}/{tenant}/diagnose:
+    speakeasy-default-options-/media/{media}/{tenant}/diagnose:
+      parameters:
+        path:
+          media: "<value>"
+          tenant: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  VirtualMediaList:
+    speakeasy-default-virtual-media-list:
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  VirtualMediaCreate:
+    speakeasy-default-virtual-media-create:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/virtualmedia:
+    speakeasy-default-options-/virtualmedia:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  VirtualMediaDelete:
+    speakeasy-default-virtual-media-delete:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/virtualmedia/{media}:
+    speakeasy-default-options-/virtualmedia/{media}:
+      parameters:
+        path:
+          media: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ConnectivitiesList:
+    speakeasy-default-connectivities-list:
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  ConnectivityCreate:
+    speakeasy-default-connectivity-create:
+      requestBody:
+        application/json: {"name": "<value>", "zones1": "<value>", "systemtypes1": "<value>", "zones2": "<value>", "systemtypes2": "<value>", "mediaprotocol": "<value>", "replicationprotocol": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/connectivities:
+    speakeasy-default-options-/connectivities:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ConnectivityGet:
+    speakeasy-default-connectivity-get:
+      parameters:
+        path:
+          connectivity: "<value>"
+      responses:
+        "200":
+          application/json: {"name": "<value>", "zones1": "<value>", "systemtypes1": "<value>", "zones2": "<value>", "systemtypes2": "<value>", "mediaprotocol": "<value>", "replicationprotocol": "<value>"}
+        "400":
+          application/json: {}
+  ConnectivityDelete:
+    speakeasy-default-connectivity-delete:
+      parameters:
+        path:
+          connectivity: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/connectivities/{connectivity}:
+    speakeasy-default-options-/connectivities/{connectivity}:
+      parameters:
+        path:
+          connectivity: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ConnectivityModify:
+    speakeasy-default-connectivity-modify:
+      parameters:
+        path:
+          connectivity: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "zones1": "<value>", "systemtypes1": "<value>", "zones2": "<value>", "systemtypes2": "<value>", "mediaprotocol": "<value>", "replicationprotocol": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  capacityGroupGet:
+    speakeasy-default-capacity-group-get:
+      responses:
+        "200":
+          application/json: [{}, {}, {}]
+        "400":
+          application/json: {}
+  options_/capacitygroups:
+    speakeasy-default-options-/capacitygroups:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  UserCreate:
+    speakeasy-default-user-create:
+      requestBody:
+        application/json: {"email": "Kenton_Roob@hotmail.com", "password": "pj1nHuhXMsEv8nr", "name": "<value>"}
+      responses:
+        "200":
+          application/json: {"status": 296138, "message": "<value>"}
+        "500":
+          application/json: {"status": 169332, "message": "<value>"}
+  options_/signup:
+    speakeasy-default-options-/signup:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  Signout:
+    speakeasy-default-signout:
+      requestBody:
+        application/json: {"AccessToken": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/signout:
+    speakeasy-default-options-/signout:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  SignIn:
+    speakeasy-default-sign-in:
+      requestBody:
+        application/json: {"email": "Melvin_Gleason@gmail.com", "password": "xx1YiyzOqOQfF59"}
+      responses:
+        "200":
+          application/json: {"AccessToken": "<value>", "IdToken": "<value>", "RefreshToken": "<value>", "ExpiresIn": 463256, "TokenType": "<value>"}
+        "400":
+          application/json: {}
+  options_/signin:
+    speakeasy-default-options-/signin:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  tenanthostdelete:
+    speakeasy-default-tenanthostdelete:
+      parameters:
+        path:
+          tenantID: "<id>"
+          tenantHost: "<value>"
+      responses:
+        "200":
+          application/json: {"StatusCode": 192373}
+        "500":
+          application/json: {"StatusCode": 617539}
+  options_/tenant/{tenantID}/tenanthosts/{tenantHost}:
+    speakeasy-default-options-/tenant/{tenant-id}/tenanthosts/{tenant-host}:
+      parameters:
+        path:
+          tenantID: "<id>"
+          tenantHost: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  TenanthostAccessCredentials:
+    speakeasy-default-tenanthost-access-credentials:
+      parameters:
+        header:
+          refreshtoken: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "500":
+          application/json: {}
+  options_/tenant/tenanthost/credentials:
+    speakeasy-default-options-/tenant/tenanthost/credentials:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  tenanthostget:
+    speakeasy-default-tenanthostget:
+      parameters:
+        header:
+          tenanthosttoken: "<value>"
+      responses:
+        "200":
+          application/json: {"StatusCode": 123077}
+        "500":
+          application/json: {"StatusCode": 975723}
+  options_/tenant/tenanthost:
+    speakeasy-default-options-/tenant/tenanthost:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  tenantIDget:
+    speakeasy-default-tenant-I-dget:
+      parameters:
+        header:
+          tenanttoken: "<value>"
+      responses:
+        "200":
+          application/json: {"StatusCode": 675242}
+        "500":
+          application/json: {"StatusCode": 779884}
+  options_/tenant/tenantid:
+    speakeasy-default-options-/tenant/tenantid:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  TenantRefreshToken:
+    speakeasy-default-tenant-refresh-token:
+      requestBody:
+        application/json: {"accesstoken": "<value>", "hostname": "immediate-independence.com"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/tenant/refreshtoken:
+    speakeasy-default-options-/tenant/refreshtoken:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  TenantAPIAccessRefreshToken:
+    speakeasy-default-tenant-API-access-refresh-token:
+      parameters:
+        header:
+          refreshtoken: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "500":
+          application/json: {}
+  options_/tenant/apiaccess/credentials/refresh:
+    speakeasy-default-options-/tenant/apiaccess/credentials/refresh:
+      parameters:
+        header:
+          refreshtoken: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  TenantToken:
+    speakeasy-default-tenant-token:
+      responses:
+        "200":
+          application/json: {"AccessToken": "<value>", "TokenType": "<value>", "ExpiresIn": 698054}
+        "400":
+          application/json: {}
+  options_/tenant/token:
+    speakeasy-default-options-/tenant/token:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  tenantuserget:
+    speakeasy-default-tenantuserget:
+      responses:
+        "200":
+          application/json: {}
+        "500":
+          application/json: {}
+  TenantUserCreate:
+    speakeasy-default-tenant-user-create:
+      requestBody:
+        application/json: {"email": "Mohammad.Goodwin@gmail.com", "password": "wkOTuM8dPrk9EXK", "name": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/tenant/user:
+    speakeasy-default-options-/tenant/user:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  UserConfirm:
+    speakeasy-default-user-confirm:
+      parameters:
+        query:
+          client_id: "<id>"
+          user_name: "Tom57"
+          confirmation_code: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/tenant/user/confirmation:
+    speakeasy-default-options-/tenant/user/confirmation:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  RequestChangePassword:
+    speakeasy-default-request-change-password:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/tenant/user/requestchangepassword:
+    speakeasy-default-options-/tenant/user/requestchangepassword:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ChangePasswordLoggedIn:
+    speakeasy-default-change-password-logged-in:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/tenant/user/changepasswordloggedin:
+    speakeasy-default-options-/tenant/user/changepasswordloggedin:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  ChangePassword:
+    speakeasy-default-change-password:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/tenant/user/changepassword:
+    speakeasy-default-options-/tenant/user/changepassword:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  versionGet:
+    speakeasy-default-version-get:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/version:
+    speakeasy-default-options-/version:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  GetSubscription:
+    speakeasy-default-get-subscription:
+      parameters:
+        query:
+          token: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/azuremarketplace/subscription:
+    speakeasy-default-options-/azuremarketplace/subscription:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AlertsList:
+    speakeasy-default-alerts-list:
+      responses:
+        "200":
+          application/json: []
+        "400":
+          application/json: {}
+  options_/alerts:
+    speakeasy-default-options-/alerts:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  AlertAcknowledge:
+    speakeasy-default-alert-acknowledge:
+      parameters:
+        path:
+          alert: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/alerts/{alert}/acknowledge:
+    speakeasy-default-options-/alerts/{alert}/acknowledge:
+      parameters:
+        path:
+          alert: "<value>"
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  GetMachineInfo:
+    speakeasy-default-get-machine-info:
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/system/machineinfo:
+    speakeasy-default-options-/system/machineinfo:
+      responses:
+        "202":
+          application/json: {}
+        "400":
+          application/json: {}
+  options_/charts: {}
+  options_/charts/{proxy}:
+    speakeasy-default-options-/charts/{proxy}:
+      parameters:
+        path:
+          proxy: "<value>"
+  get_/log/{tenantid}/{logfile}:
+    speakeasy-default-get-/log/{tenantid}/{logfile}:
+      parameters:
+        path:
+          logfile: "<value>"
+          tenantid: "<id>"
+  options_/log/{tenantid}/{logfile}:
+    speakeasy-default-options-/log/{tenantid}/{logfile}:
+      parameters:
+        path:
+          logfile: "<value>"
+          tenantid: "<id>"
+  options_/charts/{proxy+}: {}
+generatedTests: {}
