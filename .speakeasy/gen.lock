@@ -5,8 +5,10 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.468.2
   generationVersion: 2.493.4
-  releaseVersion: 0.1.18
-  configChecksum: c527e7de2c3339f17e32bfa096292e97
+  releaseVersion: 0.1.19
+  configChecksum: f072ed378d15dd6bf479b5fa415e1c18
+  repoURL: https://github.com/avivlevitski-vlz/volumez-sdk.git
+  installationURL: https://github.com/avivlevitski-vlz/volumez-sdk
 features:
   go:
     additionalDependencies: 0.1.0
