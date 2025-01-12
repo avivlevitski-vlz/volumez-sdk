@@ -1,9 +1,9 @@
-# github.com/VolumezTech/volumez-sdk
+# github.com/avivlevitski-vlz/volumez-sdk
 
-Developer-friendly & type-safe Go SDK specifically catered to leverage *github.com/VolumezTech/volumez-sdk* API.
+Developer-friendly & type-safe Go SDK specifically catered to leverage *github.com/avivlevitski-vlz/volumez-sdk* API.
 
 <div align="left">
-    <a href="https://www.speakeasy.com/?utm_source=github-com/volumez-tech/volumez-sdk&utm_campaign=go"><img src="https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" /></a>
+    <a href="https://www.speakeasy.com/?utm_source=github-com/avivlevitski-vlz/volumez-sdk&utm_campaign=go"><img src="https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" /></a>
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-blue.svg" style="width: 100px; height: 28px;" />
     </a>
@@ -23,7 +23,7 @@ avivl-test-apigw: Volumez orchestrator API
 <!-- Start Table of Contents [toc] -->
 ## Table of Contents
 <!-- $toc-max-depth=2 -->
-* [github.com/VolumezTech/volumez-sdk](#githubcomvolumeztechvolumez-sdk)
+* [github.com/avivlevitski-vlz/volumez-sdk](#githubcomavivlevitski-vlzvolumez-sdk)
   * [SDK Installation](#sdk-installation)
   * [SDK Example Usage](#sdk-example-usage)
   * [Authentication](#authentication)
@@ -530,4 +530,4 @@ looking for the latest version.
 While we value open-source contributions to this SDK, this library is generated programmatically. Any manual changes added to internal files will be overwritten on the next generation. 
 We look forward to hearing your feedback. Feel free to open a PR or an issue with a proof of concept and we'll do our best to include it in a future release. 
 
-### SDK Created by [Speakeasy](https://www.speakeasy.com/?utm_source=github-com/volumez-tech/volumez-sdk&utm_campaign=go)
+### SDK Created by [Speakeasy](https://www.speakeasy.com/?utm_source=github-com/avivlevitski-vlz/volumez-sdk&utm_campaign=go)
