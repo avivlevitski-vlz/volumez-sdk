@@ -3,7 +3,7 @@
   "info": {
     "title": "avivl-test-apigw",
     "description": "Volumez orchestrator API",
-    "version": "1.0.0 - a12da07"
+    "version": "1.0.0"
   },
   "servers": [
     {

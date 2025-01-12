@@ -1,8 +1,20 @@
 speakeasyVersion: 1.468.2
-sources: {}
+sources:
+    saas-dev-avivl:
+        sourceNamespace: saas-dev-avivl
+        sourceRevisionDigest: sha256:d266650d21b18477cc27873fe871fc685f67249bb588ecf845634c8e90b479d4
+        sourceBlobDigest: sha256:a88ed357304b2be33c1dfdc19faf1503bbd902aaea938cb0c5939f6146d6a9e9
+        tags:
+            - latest
+            - 1.0.0
 targets:
     volumez-sdk:
         source: saas-dev-avivl
+        sourceNamespace: saas-dev-avivl
+        sourceRevisionDigest: sha256:d266650d21b18477cc27873fe871fc685f67249bb588ecf845634c8e90b479d4
+        sourceBlobDigest: sha256:a88ed357304b2be33c1dfdc19faf1503bbd902aaea938cb0c5939f6146d6a9e9
+        codeSamplesNamespace: saas-dev-avivl-go-code-samples
+        codeSamplesRevisionDigest: sha256:6cd41737eab4eff5347ba75e458a1922fa2aa524215a0b13f836dbfbaa2ec917
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
@@ -11,14 +23,14 @@ workflow:
             inputs:
                 - location: .openapi.json
             registry:
-                location: registry.speakeasyapi.dev/avivlevitski-vlz/saas/saas-dev-avivl
+                location: registry.speakeasyapi.dev/volumez/saas/saas-dev-avivl
     targets:
         volumez-sdk:
             target: go
             source: saas-dev-avivl
             codeSamples:
                 registry:
-                    location: registry.speakeasyapi.dev/avivlevitski-vlz/saas/saas-dev-avivl-go-code-samples
+                    location: registry.speakeasyapi.dev/volumez/saas/saas-dev-avivl-go-code-samples
                 labelOverride:
                     fixedValue: Go (SDK)
                 blocking: false

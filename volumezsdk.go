@@ -149,10 +149,10 @@ func New(opts ...SDKOption) *VolumezSDK {
 	sdk := &VolumezSDK{
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
-			OpenAPIDocVersion: "1.0.0 - a12da07",
-			SDKVersion:        "0.1.10",
+			OpenAPIDocVersion: "1.0.0",
+			SDKVersion:        "0.1.14",
 			GenVersion:        "2.493.4",
-			UserAgent:         "speakeasy-sdk/go 0.1.10 2.493.4 1.0.0 - a12da07 github.com/avivlevitski-vlz/volumez-sdk",
+			UserAgent:         "speakeasy-sdk/go 0.1.14 2.493.4 1.0.0 github.com/avivlevitski-vlz/volumez-sdk",
 			Hooks:             hooks.New(),
 		},
 	}

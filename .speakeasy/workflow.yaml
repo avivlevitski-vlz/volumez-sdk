@@ -5,14 +5,14 @@ sources:
         inputs:
             - location: .openapi.json
         registry:
-            location: registry.speakeasyapi.dev/avivlevitski-vlz/saas/saas-dev-avivl
+            location: registry.speakeasyapi.dev/volumez/saas/saas-dev-avivl
 targets:
     volumez-sdk:
         target: go
         source: saas-dev-avivl
         codeSamples:
             registry:
-                location: registry.speakeasyapi.dev/avivlevitski-vlz/saas/saas-dev-avivl-go-code-samples
+                location: registry.speakeasyapi.dev/volumez/saas/saas-dev-avivl-go-code-samples
             labelOverride:
                 fixedValue: Go (SDK)
             blocking: false
