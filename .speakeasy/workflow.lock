@@ -2,19 +2,20 @@ speakeasyVersion: 1.468.2
 sources:
     saas-dev-avivl:
         sourceNamespace: saas-dev-avivl
-        sourceRevisionDigest: sha256:5d3519a7024a68fd5eba330ba1d293fae9a75384422da6ae332c5819742ff40d
-        sourceBlobDigest: sha256:a88ed357304b2be33c1dfdc19faf1503bbd902aaea938cb0c5939f6146d6a9e9
+        sourceRevisionDigest: sha256:f369a67603626f55a395a4f734d5d6b8f4ff6ddcc099bf98ae304c2a59a24574
+        sourceBlobDigest: sha256:3875a4d298673754b941b3afe9db388942d862e68de194416c5c83340eab03fe
         tags:
             - latest
+            - speakeasy-sdk-regen-1736755899
             - 1.0.0
 targets:
     volumez-sdk:
         source: saas-dev-avivl
         sourceNamespace: saas-dev-avivl
-        sourceRevisionDigest: sha256:5d3519a7024a68fd5eba330ba1d293fae9a75384422da6ae332c5819742ff40d
-        sourceBlobDigest: sha256:a88ed357304b2be33c1dfdc19faf1503bbd902aaea938cb0c5939f6146d6a9e9
+        sourceRevisionDigest: sha256:f369a67603626f55a395a4f734d5d6b8f4ff6ddcc099bf98ae304c2a59a24574
+        sourceBlobDigest: sha256:3875a4d298673754b941b3afe9db388942d862e68de194416c5c83340eab03fe
         codeSamplesNamespace: saas-dev-avivl-go-code-samples
-        codeSamplesRevisionDigest: sha256:0bd4a209d725e3eae75539ccb0c3020dfeef514a8a09fa50686f76868621c6a6
+        codeSamplesRevisionDigest: sha256:5a4a6ab3c5fd66913acaa7eab0bde6b862e36f32d16bfb5b050566fc233499e3
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
