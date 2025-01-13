@@ -1,12 +1,14 @@
 lockVersion: 2.0.0
 id: fce15c10-9ac7-4179-9616-961a44902bfd
 management:
-  docChecksum: 75b79ee289d68d56013885d8b3334b97
+  docChecksum: ff20ae237be2e2d7a3f66a26e2cb6666
   docVersion: 1.0.0
   speakeasyVersion: 1.468.2
   generationVersion: 2.493.4
-  releaseVersion: 0.1.17
-  configChecksum: 2288a52f2d73725b1e7db330a9824b78
+  releaseVersion: 0.1.18
+  configChecksum: c527e7de2c3339f17e32bfa096292e97
+  repoURL: https://github.com/avivlevitski-vlz/volumez-sdk.git
+  installationURL: https://github.com/avivlevitski-vlz/volumez-sdk
 features:
   go:
     additionalDependencies: 0.1.0

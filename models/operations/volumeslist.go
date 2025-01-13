@@ -19,7 +19,7 @@ func (o *VolumesListRequest) GetCapacity() *bool {
 
 type VolumesListResponse struct {
 	HTTPMeta components.HTTPMetadata `json:"-"`
-	// List of volumes
+	// List of volumes tests
 	Volumes []components.Volume
 	Headers map[string][]string
 }
