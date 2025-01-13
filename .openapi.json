@@ -87,7 +87,7 @@
         ],
         "responses": {
           "200": {
-            "description": "List of volumes",
+            "description": "List of volumes tests",
             "headers": {
               "Access-Control-Allow-Origin": {
                 "schema": {
